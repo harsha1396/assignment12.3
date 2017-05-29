@@ -1,0 +1,25 @@
+1)Explain the uses of NoSQL Databases in brief and list the current NoSQL databases which are available:-
+
+A NoSQL database provides a mechanism for storage and retrieval of data which is modeled in means other than the tabular relations used in relational databases.
+The data structures used by NoSQL databases are different from those used in relational databases which makes some operations faster in NoSQL.
+It has simpler design and simpler horizontal scaling to clusters of machines.
+The data structures used by NoSQL databases are more flexible.
+The current NoSQL databases are:-
+->Accumulo 
+->Cassandra 
+->Druid 
+->HBase 
+->Vertica
+->SAP HANA
+
+2)Explain the Differences between Hive and HBase in Brief with examples:-
+
+HIVE:
+Apache Hive is a data warehouse infrastructure built on top of Hadoop.
+It allows for querying data stored on HDFS for analysis via HQL that gets translated to MapReduce jobs.
+Hive should not be used for real-time querying since it could take a while before any results are returned. 
+
+HBASE:
+Apache HBase is a NoSQL key/value store which runs on top of HDFS.
+HBase operations run in real-time on its database rather than MapReduce jobs.
+HBase is perfect for real-time querying of Big Data.
